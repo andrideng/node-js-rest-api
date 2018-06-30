@@ -3,7 +3,7 @@ Build node js rest api from scratch, without npm or package.json
 
 ## Development
 ```
-git clone
+git clone https://github.com/andrideng/node-js-rest-api.git
 ```
 Create store .data folder
 ```
