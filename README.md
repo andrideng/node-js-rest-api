@@ -2,7 +2,7 @@
 Build node js rest api from scratch, without npm or package.json
 
 # API
-## USERS
+## >> USERS
 ### METHOD: GET
 ### URL: /users?phone=[phone_number]
 ```
@@ -50,7 +50,7 @@ token: [token]
 Content-Type:application/json
 ```
 
-## TOKENS
+## >> TOKENS
 ### METHOD: GET
 ### URL: /tokens?id=[token_id]
 ```
@@ -91,7 +91,7 @@ Headers:
 Content-Type:application/json
 ```
 
-## CHECKS
+## >> CHECKS
 ### METHOD: GET
 ### URL: /checks?id=[checks_id]
 ```
