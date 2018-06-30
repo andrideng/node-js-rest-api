@@ -1,0 +1,10 @@
+# .data file
+*.json
+
+# .log file
+*.log
+
+# env variable
+.env
+
+.DS_STORE
