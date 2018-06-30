@@ -1,6 +1,22 @@
 # nodejs-rest-api
 Build node js rest api from scratch, without npm or package.json
 
+## Development
+```
+git clone
+```
+Create store .data folder
+```
+mkdir .data/checks
+mkdir .data/test
+mkdir .data/tokens
+mkdir .data/users
+```
+Create store .logs folder
+```
+mkdir .logs
+```
+
 # API
 ## >> USERS
 ### METHOD: GET
