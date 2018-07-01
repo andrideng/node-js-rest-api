@@ -3,6 +3,7 @@
 
 # .log file
 *.log
+*.gz.b64
 
 # env variable
 .env
