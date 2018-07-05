@@ -20,7 +20,7 @@ mkdir .logs
 # API
 ## >> USERS
 ### METHOD: GET
-### URL: /users?phone=[phone_number]
+### URL: /api/users?phone=[phone_number]
 ```
 Headers: 
 token:[token]
@@ -28,7 +28,7 @@ Content-Type:application/json
 ```
 
 ### METHOD: POST
-### URL: /users
+### URL: /api/users
 ```
 Headers: 
 Content-Type:application/json
@@ -44,7 +44,7 @@ Payload:
 ```
 
 ### METHOD: PUT
-### URL: /users
+### URL: /api/users
 ```
 Headers: 
 token: [token]
@@ -59,7 +59,7 @@ Payload:
 ```
 
 ### METHOD: DELETE
-### URL: /users?phone=[phone_number]
+### URL: /api/users?phone=[phone_number]
 ```
 Headers: 
 token: [token]
@@ -68,14 +68,14 @@ Content-Type:application/json
 
 ## >> TOKENS
 ### METHOD: GET
-### URL: /tokens?id=[token_id]
+### URL: /api/tokens?id=[token_id]
 ```
 Headers: 
 Content-Type:application/json
 ```
 
 ### METHOD: POST
-### URL: /tokens
+### URL: /api/tokens
 ```
 Headers: 
 Content-Type:application/json
@@ -88,7 +88,7 @@ Payload:
 ```
 
 ### METHOD: PUT
-### URL: /tokens
+### URL: /api/tokens
 ```
 Headers: 
 Content-Type:application/json
@@ -101,7 +101,7 @@ Payload:
 ```
 
 ### METHOD: DELETE
-### URL: /tokens?id=[token_id]
+### URL: /api/tokens?id=[token_id]
 ```
 Headers: 
 Content-Type:application/json
@@ -109,7 +109,7 @@ Content-Type:application/json
 
 ## >> CHECKS
 ### METHOD: GET
-### URL: /checks?id=[checks_id]
+### URL: /api/checks?id=[checks_id]
 ```
 Headers:
 token:[token]
@@ -117,7 +117,7 @@ Content-Type:application/json
 ```
 
 ### METHOD: POST
-### URL: /checks
+### URL: /api/checks
 ```
 Headers:
 token:[token] 
@@ -134,7 +134,7 @@ Payload:
 ```
 
 ### METHOD: PUT
-### URL: /checks
+### URL: /api/checks
 ```
 Headers: 
 token:[token]
@@ -152,7 +152,7 @@ Payload:
 ```
 
 ### METHOD: DELETE
-### URL: /checks?id=[checks_id]
+### URL: /api/checks?id=[checks_id]
 ```
 Headers: 
 Content-Type:application/json
