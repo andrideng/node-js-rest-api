@@ -17,4 +17,5 @@ server.on('message', (messageBuffer, sender) => {
 })
 
 // Bind to 6000
+console.log('UDP server is run on port 6000!');
 server.bind(6000);
